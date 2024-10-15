@@ -363,8 +363,8 @@ int main() {
 
   setRFField(serial, false, false);
 
-  uint8_t idm[16];
-  uint8_t pmm[16];
+  uint8_t idm[8];
+  uint8_t pmm[8];
   uint16_t systemCodeResponse;
   // felica_Polling(serial, 0x88B4 /* FeliCa Lite-S */, 0x01, idm,
   //                pmm, &systemCodeResponse);
